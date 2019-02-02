@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style/style.css"/>
     <title>Login</title>
   </head>
-  <body>
+  <body id="body">
     <header>
       <div class="logo">
         <h1 class="logo-text">story telling</h1>
@@ -16,27 +16,30 @@
       <div class="user-menu">
         <div class="not-login"><a href="#">Login</a><a href="#">Sign Up</a></div>
       </div>
+      <!--
+      .is-login
+          .user-dropDown
+              ul.main-drop#main-drop
+                  li#main-li.main-li
+                      h3 Username 
+                          i(class='fas fa-sort-down')
+                      ul.sub-drop
+                          li
+                              a(href="#") My Profile
+                          li
+                              a(href="#") Link
+                          li
+                              a(href="#") Logout 
+          span(class='user-avatar')
+          span(class="fas notif fa-bell")
+          span(class="fas fa-comment-alt")
+          span(class="right-icon")
+      
+      -->
     </header>
-    <section class="login">
-      <div class="event-img"></div>
-      <div class="login-form">
-        <form>
-          <h1>login</h1>
-          <label for="username">
-            <input type="email" placeholder="Email"/><span class="fas fa-user"></span>
-          </label>
-          <label for="password">
-            <input type="password" placeholder="Password"/><span class="fas fa-lock"></span>
-          </label>
-          <div class="remember-me"><span>Keep me sign in</span>
-            <input type="checkbox"/>
-          </div>
-          <input type="submit" value="Login"/><a href="#">I don't remember my password</a>
-        </form>
-      </div>
-    </section>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
